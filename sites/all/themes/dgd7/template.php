@@ -44,35 +44,7 @@ src="https://www.facebook.com/tr?id=1946794108938764&ev=PageView
   drupal_add_css('.fieldset-description{color:red;font-weight:700;}');
   drupal_add_html_head($viewport, 'viewport');
   drupal_add_html_head($noscript, 'noscript');
-  drupal_add_js('https://www.google.com/recaptcha/api.js', 'external');
-  drupal_add_js('https://www.googletagmanager.com/gtag/js?id=UA-63014058-1', 'external');
-
-  drupal_add_js(path_to_theme() . '/js/jquery.bootstrap.newsbox.min.js', array(
-      'type' => 'file',
-      'scope' => 'footer',
-      'weight' => 1,));
-  drupal_add_js(path_to_theme() . '/js/jquery.magnific-popup.js', array(
-  'type' => 'file',
-  'scope' => 'footer',
-  'weight' => 2,));
-     drupal_add_js(path_to_theme() . '/assets/js/libs/handlebars.min.js', array(
-  'type' => 'file',
-  'scope' => 'footer',
-  'weight' => 3,));
-
-     drupal_add_js(path_to_theme() . '/assets/js/plugins/storeLocator/jquery.storelocator.js', array(
-  'type' => 'file',
-  'scope' => 'footer',
-  'weight' => 5,));
-  drupal_add_js(path_to_theme() . '/js/custom.js', array(
-  'type' => 'file',
-  'scope' => 'footer',
-  'weight' => 6,));
-  
-  drupal_add_js(path_to_theme() . '/js/facebook.js', array(
-  'type' => 'file',
-  'scope' => 'header',
-  ));
+;
   
   
 }
