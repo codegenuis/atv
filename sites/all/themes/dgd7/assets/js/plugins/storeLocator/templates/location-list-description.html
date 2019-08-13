@@ -1,0 +1,20 @@
+{{#location}}
+<li data-markerid="{{markerid}}">
+	<div class="list-label"><img class="img-circle" style="border-radius:50% !important;" src="https://spectranet.mciiroyprojects.com/sites/all/themes/dgd7/img/list.png"> </div>
+	<div class="list-details">
+		<div class="list-content">
+			<div class="loc-name">{{name}}</div>
+			<div class="loc-addr">{{address}}{{#if address}},{{/if}}{{city}}{{#if city}},{{/if}} {{state}}</div>
+
+			<div class="loc-addr3">{{category}}</div>
+			{{#if phone}}
+				<div class="loc-phone">{{phone}}</div>
+			{{/if}}
+
+			{{#if distance}}
+				<div class="loc-dist loc-default-dist">{{distance}} {{length}}</div>
+			{{/if}}
+		</div>
+	</div>
+</li>
+{{/location}}

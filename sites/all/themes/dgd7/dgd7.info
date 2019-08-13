@@ -1,0 +1,63 @@
+name = dgd7
+description = Atv West Africa 
+core = 7.x
+base theme = bartik
+
+
+stylesheets[all][] = css/bootstrap.min.css
+stylesheets[all][] = css/composer.css
+stylesheets[all][] = css/core.css
+stylesheets[all][] = css/custom.css
+stylesheets[all][] = css/font-awesome.min.css
+stylesheets[all][] = css/yamm.css
+stylesheets[all][] = css/owl.carousel.css
+stylesheets[all][] = css/style.css
+stylesheets[all][] = css/flexslider.css
+
+; Supported Javascript
+scripts[] = 'js/jquery.js'
+scripts[] = 'js/bootstrap.min.js'
+scripts[] = 'js/jquery.themepunch.revolution.min.js'
+scripts[] = 'js/jquery.themepunch.tools.min.js'
+scripts[] = 'js/jquery-migrate.min.js'
+scripts[] = 'js/jquery.swipebox.js'
+scripts[] = 'js/scripts.js'
+scripts[] = 'js/functions.js'
+scripts[] = 'js/doubletaptogo.js'
+scripts[] = 'js/owl.carousel.js'
+scripts[] = 'js/composer.min.js'
+scripts[] = 'js/jquery.flexslider-min.js'
+scripts[] = 'js/isotope.js'
+
+regions[header] = Header
+regions[help] = Help
+regions[page_top] = Page top
+regions[page_bottom] = Page bottom
+regions[highlighted] = Highlighted
+
+regions[featured] = Featured
+regions[featured_second] = Featured second
+regions[featured_third] = Featured third
+regions[featured_fourth] = Featured fourth
+regions[content] = Content
+regions[sidebar_first] = Sidebar first
+regions[sidebar_second] = Sidebar second
+
+regions[triptych_first] = Triptych first
+regions[triptych_middle] = Triptych middle
+regions[triptych_last] = Triptych last
+
+regions[footer_firstcolumn] = Footer first column
+regions[footer_secondcolumn] = Footer second column
+regions[footer_thirdcolumn] = Footer third column
+regions[footer_fourthcolumn] = Footer fourth column
+regions[footer] = Footer
+
+settings[shortcut_module_link] = 0
+
+
+; Information added by Drupal.org packaging script on 2018-03-28
+version = "7.67"
+project = "drupal"
+datestamp = "1522264019"
+
